@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finmate - Home</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(255, 255, 255); /* Set background color to black */
+            color: rgb(0, 0, 0); /* Set text color to white */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .header-container {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+        }
+
+
+
+
+        .home-content {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .home-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .home-content p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .feature i {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .feature h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+        }
+
+        .get-started-btn {
+            background-color: #053b4b;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .get-started-btn:hover {
+            background-color: #042a3b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <span class="web-name">Finmate</span>
+        </div>
+    </div>
+
+    <div class="home-content">
+        <h1>Welcome to Finmate</h1>
+        <p>Your trusted partner in financial management.</p>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h2>Track Your Finances</h2>
+                <p>Monitor your income, expenses, and savings all in one place.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-piggy-bank"></i>
+                <h2>Save Smarter</h2>
+                <p>Get personalized saving tips and achieve your financial goals.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-wallet"></i>
+                <h2>Manage Investments</h2>
+                <p>Keep track of your investments and make informed decisions.</p>
+            </div>
+        </div>
+        <button class="get-started-btn">Get Started</button>
+    </div>
+</body>
+
+</html>
